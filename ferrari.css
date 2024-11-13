@@ -28,7 +28,7 @@ a:hover {
 /* Encabezado */
 header {
     background: linear-gradient(to right, #000, #444);
-    padding: 10px 25px;
+    padding: 10px 20px; /* Reducir el padding para hacer el header más fino */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,33 +40,25 @@ header {
 }
 
 header .logo img {
-    max-width: 100px; /* Aumentar tamaño del logo */
+    max-width: 80px; /* Reducir el tamaño del logo */
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 1.8em; /* Reducir el tamaño del texto del título */
     color: #d40000; /* Rojo Ferrari */
     text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
-}
-
-/* Header específico para historia */
-.header-historia {
-    padding: 10px 15px; /* Reducir el padding */
-}
-
-.header-historia h1 {
-    font-size: 2em; /* Reducir el tamaño del texto */
-    margin: 0; /* Eliminar márgenes */
+    letter-spacing: 1.5px; /* Mantener el espaciado pero más ajustado */
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 10px; /* Añadir un poco de espacio al texto */
 }
 
 /* Menú de Navegación */
 nav {
-    margin-top: 30px;
-    background-color: #111; /* Fondo del menú */
-    padding: 40px;
+    margin-top: 60px; /* Alinear la barra de navegación debajo del header más delgado */
+    background-color: #111;
+    padding: 15px 0;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -83,6 +75,42 @@ nav ul li a {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    header .logo img {
+        max-width: 70px; /* Ajustar el tamaño del logo para móviles */
+    }
+
+    header h1 {
+        font-size: 1.5em; /* Reducir aún más el tamaño del texto en móviles */
+        margin-bottom: 5px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .modelo {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #modelos h2 {
+        font-size: 3em;
+    }
+
+    #sobre-nosotros p, #tecnologia p, #contacto p {
+        font-size: 1em;
+    }
+}
+
 
 /* Sección General */
 section {
@@ -280,6 +308,12 @@ footer {
     #modelos h2 {
         font-size: 3em; /* Reducir el tamaño del título en móviles */
     }
+
+    #sobre-nosotros p, #tecnologia p, #contacto p {
+        font-size: 1em; /* Reducir tamaño del texto en móviles */
+    }
+}
+
 
     #sobre-nosotros p, #tecnologia p, #contacto p {
         font-size: 1em; /* Reducir tamaño del texto en móviles */

@@ -319,3 +319,30 @@ footer {
         font-size: 1em; /* Reducir tamaño del texto en móviles */
     }
 }
+.anuncio-banner {
+    width: 728px;
+    height: 90px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.anuncio-banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para el anuncio 300x600 */
+.anuncio-banner-turismo {
+    width: 300px;
+    height: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.anuncio-banner-turismo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

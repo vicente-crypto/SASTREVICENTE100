@@ -28,7 +28,7 @@ a:hover {
 /* Encabezado */
 header {
     background: linear-gradient(to right, #000, #444);
-    padding: 20px 50px;
+    padding: 10px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +40,7 @@ header {
 }
 
 header .logo img {
-    max-width: 120px; /* Aumentar tamaño del logo */
+    max-width: 100px; /* Aumentar tamaño del logo */
 }
 
 header h1 {
@@ -53,7 +53,7 @@ header h1 {
 
 /* Header específico para historia */
 .header-historia {
-    padding: 10px 30px; /* Reducir el padding */
+    padding: 10px 15px; /* Reducir el padding */
 }
 
 .header-historia h1 {
@@ -63,11 +63,10 @@ header h1 {
 
 /* Menú de Navegación */
 nav {
-    margin-top: 90px;
+    margin-top: 30px;
     background-color: #111; /* Fondo del menú */
-    padding: 60px 0;
+    padding: 40px;
 }
-
 nav ul {
     list-style: none;
     display: flex;

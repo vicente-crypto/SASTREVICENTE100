@@ -28,7 +28,7 @@ a:hover {
 /* Encabezado */
 header {
     background: linear-gradient(to right, #000, #444);
-    padding: 20px 50px;
+    padding: 5px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;

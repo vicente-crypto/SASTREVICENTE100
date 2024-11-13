@@ -56,7 +56,7 @@ header h1 {
 nav {
     margin-top: 60px; /* Alinear la barra de navegación debajo del header más delgado */
     background-color: #111;
-    padding: 15px 0;
+    padding: 60px 0;
 }
 
 nav ul {
